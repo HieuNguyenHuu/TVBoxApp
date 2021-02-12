@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+    <LinearLayout android:layout_width="match_parent"
+        android:layout_height="0dp"
+        tools:ignore="Suspicious0dp"
+        android:layout_weight="0.2"
+        android:background="#ff0000"
+        android:orientation="horizontal">
+        <LinearLayout android:layout_width="0dp" android:layout_height="match_parent"
+            android:layout_weight="0.1" android:background="#000000"
+            android:orientation="vertical"
+            >
+            <ImageButton
+                android:id="@+id/btnMic"
+                android:layout_width="48dp" android:layout_height="48dp"
+                android:layout_gravity="center"
+                android:padding="5dp"
+                android:layout_margin="5dp"
+                android:layout_weight="0.8"
+                android:src="@drawable/ic_mic"
+                android:scaleType="fitCenter"
+                android:background="@drawable/button_background"
+                />
+            <TextView android:id="@+id/tvMic"
+                android:visibility="invisible"
+                android:layout_width="wrap_content" android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:layout_gravity="center"
+                android:layout_weight="0.2"
+                android:text="MIC"
+                android:textColor="#ffffff"/>
+        </LinearLayout>
+        <LinearLayout android:layout_width="0dp" android:layout_height="match_parent"
+            android:orientation="horizontal" android:layout_weight="0.8"
+            >
+            <LinearLayout android:layout_height="match_parent" android:layout_width="0dp"
+                android:layout_gravity="center" android:layout_weight="0.15"
+                android:background="#000000" />
+            <LinearLayout android:layout_height="match_parent" android:layout_width="0dp"
+                android:layout_gravity="center" android:layout_weight="0.65"
+                android:background="#000000" >
+                <LinearLayout android:layout_height="match_parent" android:layout_width="0dp"
+                    android:layout_gravity="center" android:layout_weight="0.11"
+                    android:background="#000000" android:orientation="vertical" >
+                    <ImageButton
+                        android:id="@+id/btnStar"
+                        android:layout_width="48dp" android:layout_height="48dp"
+                        android:layout_gravity="center"
+                        android:padding="5dp"
+                        android:layout_margin="5dp"
+                        android:layout_weight="0.8"
+                        android:src="@drawable/ic_star"
+                        android:scaleType="fitCenter"
+                        android:background="@drawable/button_background"
+                        />
+                    <TextView
+                        android:id="@+id/tvStar"
+                        android:visibility="invisible"
+                        android:layout_width="wrap_content" android:layout_height="wrap_content"
+                        android:textAlignment="center"
+                        android:layout_gravity="center"
+                        android:layout_weight="0.2"
+                        android:text="STAR"
+                        android:textColor="#ffffff"/>
+                </LinearLayout>
+                <LinearLayout android:layout_height="match_parent" android:layout_width="0dp"
+                    android:layout_gravity="center" android:layout_weight="0.1"
+                    android:background="#000000" android:orientation="vertical" >
+                    <ImageButton
+                        android:id="@+id/btnSearch"
+                        android:layout_width="48dp" android:layout_height="48dp"
+                        android:layout_gravity="center"
+                        android:padding="5dp"
+                        android:layout_margin="5dp"
+                        android:layout_weight="0.8"
+                        android:src="@drawable/ic_search"
+                        android:scaleType="fitCenter"
+                        android:background="@drawable/button_background"
+                        />
+                    <TextView
+                        android:id="@+id/tvSearch"
+                        android:visibility="invisible"
+                        android:layout_width="wrap_content" android:layout_height="wrap_content"
+                        android:textAlignment="center"
+                        android:layout_gravity="center"
+                        android:layout_weight="0.2"
+                        android:text="SEARCH"
+                        android:textColor="#ffffff"/>
+                </LinearLayout>
+                <LinearLayout android:layout_height="match_parent" android:layout_width="0dp"
+                    android:layout_gravity="center" android:layout_weight="0.1"
+                    android:background="#000000" android:orientation="vertical" >
+                    <ImageButton
+                        android:id="@+id/btnList"
+                        android:layout_width="48dp" android:layout_height="48dp"
+                        android:layout_gravity="center"
+                        android:padding="5dp"
+                        android:layout_margin="5dp"
+                        android:layout_weight="0.8"
+                        android:src="@drawable/ic_listmusic"
+                        android:scaleType="fitCenter"
+                        android:background="@drawable/button_background"
+                        />
+                    <TextView
+                        android:id="@+id/tvList"
+                        android:layout_width="wrap_content" android:layout_height="wrap_content"
+                        android:textAlignment="center"
+                        android:layout_gravity="center"
+                        android:layout_weight="0.2"
+                        android:text="LIST"
+                        android:visibility="invisible"
+                        android:textColor="#ffffff"/>
+                </LinearLayout>
+                <LinearLayout android:layout_height="match_parent" android:layout_width="0dp"
+                    android:layout_gravity="center" android:layout_weight="0.1"
+                    android:background="#000000" android:orientation="vertical" >
+                    <ImageButton
+                        android:id="@+id/btnHis"
+                        android:layout_width="48dp" android:layout_height="48dp"
+                        android:layout_gravity="center"
+                        android:padding="5dp"
+                        android:layout_margin="5dp"
+                        android:layout_weight="0.8"
+                        android:src="@drawable/ic_history"
+                        android:scaleType="fitCenter"
+                        android:background="@drawable/button_background"
+                        />
+                    <TextView
+                        android:id="@+id/tvHis"
+                        android:layout_width="wrap_content" android:layout_height="wrap_content"
+                        android:textAlignment="center"
+                        android:layout_gravity="center"
+                        android:layout_weight="0.2"
+                        android:text="HISTORY"
+                        android:visibility="invisible"
+                        android:textColor="#ffffff"/>
+                </LinearLayout>
+                <LinearLayout android:layout_height="match_parent" android:layout_width="0dp"
+                    android:layout_gravity="center" android:layout_weight="0.1"
+                    android:background="#000000" android:orientation="vertical" >
+                    <ImageButton
+                        android:id="@+id/btnHe"
+                        android:layout_width="48dp" android:layout_height="48dp"
+                        android:layout_gravity="center"
+                        android:padding="5dp"
+                        android:layout_margin="5dp"
+                        android:layout_weight="0.8"
+                        android:src="@drawable/ic_heart"
+                        android:scaleType="fitCenter"
+                        android:background="@drawable/button_background"
+                        />
+                    <TextView
+                        android:id="@+id/tvHe"
+                        android:layout_width="wrap_content" android:layout_height="wrap_content"
+                        android:textAlignment="center"
+                        android:layout_gravity="center"
+                        android:layout_weight="0.2"
+                        android:text="LOVE"
+                        android:visibility="invisible"
+                        android:textColor="#ffffff"/>
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout android:layout_height="match_parent" android:layout_width="0dp"
+                android:layout_gravity="center" android:layout_weight="0.15"
+                android:background="#000000" android:orientation="vertical" />
+        </LinearLayout>
+        <LinearLayout android:layout_width="0dp" android:layout_height="match_parent"
+            android:layout_weight="0.1" android:background="#000000"
+            android:orientation="vertical"
+            >
+            <ImageButton
+                android:id="@+id/btnSet"
+                android:layout_width="48dp" android:layout_height="48dp"
+                android:layout_gravity="center"
+                android:padding="5dp"
+                android:layout_margin="5dp"
+                android:layout_weight="0.8"
+                android:src="@drawable/ic_setting"
+                android:scaleType="fitCenter"
+                android:background="@drawable/button_background"
+                />
+            <TextView android:id="@+id/tvSet"
+                android:layout_width="wrap_content" android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:layout_gravity="center"
+                android:layout_weight="0.2"
+                android:text="SETTING"
+                android:visibility="invisible"
+                android:textColor="#ffffff"/>
+        </LinearLayout>
+    </LinearLayout>
+
+    <FrameLayout
+        android:id="@+id/fragment_content"
+        android:layout_width="match_parent" android:layout_height="0dp"
+        android:layout_gravity="center"
+        android:layout_weight="0.8" tools:ignore="Suspicious0dp"
+        android:background="#000000">
+    </FrameLayout>
+
+</LinearLayout>
