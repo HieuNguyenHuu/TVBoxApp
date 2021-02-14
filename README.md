@@ -9,7 +9,7 @@
 
 ## Demo
 
-![](demo.gif)
+![](/demo/demo.gif)
 
 <details open="open">
   <summary><h2 style="display: inline-block">Table of Contents</h2></summary>
@@ -24,8 +24,8 @@
 
 This is my first application from the Course, in this project i making the simple application in Android Studio with java language and Kotlin. In that, i making the custom actionbar with several number of icon to change the fragment. In the main fragment, i using the leanback horizontalgridview look good, to using this gridview i using the Adapter to list with model in class mediaModel.java
 
-![pp1](1.png)
-![pp2](2.png)
+![pp1](/images/1.png)
+![pp2](/images/2.png)
 
 ## Contact
 
